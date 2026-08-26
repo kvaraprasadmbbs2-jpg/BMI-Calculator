@@ -11,5 +11,5 @@ elif bmi < 25:
   st.write ("BMI Categoery - Normal")
 elif bmi <30:
   st.write("BMI Categoery - Overweight ")
-           else:
+else:
   st.write("BMI Category - Obese")
