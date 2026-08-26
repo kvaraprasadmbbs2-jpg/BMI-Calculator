@@ -5,7 +5,7 @@ height = st.number_input("Enter your height in mt",min_value = 0.5)
 if st.button("Calculate BMI"):
   bmi = weight / (height * height)
   st.write("Your BMI is = ", round (bmi,2))
-  if bmi < 18.5:
+if bmi < 18.5:
   st.write("BMI Category - Underweight")
 elif bmi < 25:
   st.write ("BMI Categoery - Normal")
